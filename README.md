@@ -22,18 +22,6 @@ yarn add --dev jest
 2. 테스트 작성 후, 테스트 기반의 기능 개발 ( 개발 코드 )
 3. 통합 테스트 진행 ( 전체적인 테스트 E2E )
 
-# Jest 문법
-|문법|내용|
-|---|---|
-|describe|테스트 케이스를 그룹화하여 테스트한다.|
-|beforeEach|각 테스트가 실행되기 전 실행한다.|
-|afterEach|각 테스트가 실행된 후 실행한다.|
-|beforeAll|모든 테스트가 실행되기 전 한번만 실행한다.|
-|afterAll|모든 테스트가 실행된 후 한번만 실행한다.|
-|expect|비교를 진행 할 기대 값 입력|
-|toEqual|객체의 내용이 같은 같은 지 확인|
-|toBe|메모리 주소까지 같은 객체인지 확인|
-
 # 빌드 모듈
 <a href="https://esbuild.github.io/" target="_blank">ESBuild</a>
 
