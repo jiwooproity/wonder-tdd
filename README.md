@@ -1,2 +1,35 @@
-# wonder-tdd
-Test Driven Development
+# Wonder TDD
+테스트 주도 개발 ( TDD: Test Driven Development )
+
+# 저장소 소개
+말 그대로 TDD 방법론 ( 테스트 주도 개발 ) 에 대해 궁금하고, 직접 한번 경험해 보고 싶어 생성한 저장소입니다.  
+혼자서 이렇게 공부하는 것도 즐거워서 다행이네요.
+
+# TDD 준비물
+|기술|내용|
+|---|---|
+|Webpack|React 라이브러리 환경 구성을 위해 사용할 예정|
+|Jest|TDD 수행, 테스트 케이스 작성을 위한 테스팅 프레임워크|
+```
+// npm
+npm i -d jest
+// yarn
+yarn add --dev jest
+```
+
+# Jest To Do ..
+1. 단위 테스트 진행
+2. 테스트 작성 후, 테스트 기반의 기능 개발 ( 개발 코드 )
+3. 통합 테스트 진행 ( 전체적인 테스트 E2E )
+
+# Jest 문법
+|문법|내용|
+|---|---|
+|describe|테스트 케이스를 그룹화하여 테스트한다.|
+|beforeEach|각 테스트가 실행되기 전 실행한다.|
+|afterEach|각 테스트가 실행된 후 실행한다.|
+|beforeAll|모든 테스트가 실행되기 전 한번만 실행한다.|
+|afterAll|모든 테스트가 실행된 후 한번만 실행한다.|
+|expect|비교를 진행 할 기대 값 입력|
+|toEqual|객체의 내용이 같은 같은 지 확인|
+|toBe|메모리 주소까지 같은 객체인지 확인|
