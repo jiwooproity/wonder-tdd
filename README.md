@@ -33,3 +33,20 @@ yarn add --dev jest
 |expect|비교를 진행 할 기대 값 입력|
 |toEqual|객체의 내용이 같은 같은 지 확인|
 |toBe|메모리 주소까지 같은 객체인지 확인|
+
+# 빌드 모듈
+<a href="https://esbuild.github.io/" target="_blank">ESBuild</a>
+
+# 패키지 관리: yarn berry
+```
+yarn create react-app . --template typescript
+rm -rf node_modul
+rm -rf yarn.lock
+yarn set version berry
+yarn install
+```
+
+*.tsx, *.ts 빨간 줄 발생 해결 방법
+```
+yarn dlx @yarnpkg/sdks vscode
+```
