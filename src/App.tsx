@@ -1,23 +1,8 @@
-import { useState } from "react";
+import { RouterProvider } from "react-router-dom";
+import router from "./router";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  const plus = () => {
-    setCount((prevCount) => prevCount + 1);
-  };
-
-  const minus = () => {
-    setCount((prevCount) => prevCount - 1);
-  };
-
-  return (
-    <div>
-      <span data-testid="count">{count}</span>
-      <button onClick={plus}>Plus</button>
-      <button onClick={minus}>Minus</button>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
