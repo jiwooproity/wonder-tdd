@@ -12,7 +12,10 @@ describe("", () => {
 
     const todoList = screen.getByText("첫 번째");
     expect(todoList).toBeVisible();
-
     expect(input).toHaveAttribute("value", "");
+
+    const checkbox = screen.getByLabelText("0") as HTMLInputElement;
+    fireEvent.change(checkbox, { target: { name: "0", checked: !checkbox.checked } });
+    expect(checkbox.checked).toBe(true);
   });
 });
