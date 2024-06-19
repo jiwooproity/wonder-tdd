@@ -4,8 +4,7 @@
 그래도 테스트 코드를 짜는 연습, 습관을 들이면 꽤나 프로젝트 기여에 있어 도움이 될 거 같다.
 
 # 저장소 소개
-말 그대로 TDD 방법론 ( 테스트 주도 개발 ) 에 대해 궁금하고, 직접 한번 경험해 보고 싶어 생성한 저장소입니다.  
-혼자서 이렇게 공부하는 것도 즐거워서 다행이네요.
+말 그대로 TDD 방법론 ( 테스트 주도 개발 ) 에 대해 궁금하고, 직접 한번 경험해 보고 싶어 생성한 저장소입니다.
 
 # TDD 준비물
 |기술|내용|
@@ -30,7 +29,7 @@ yarn add --dev jest
 # 패키지 관리: yarn berry
 ```
 yarn create react-app . --template typescript
-rm -rf node_modul
+rm -rf node_module
 rm -rf yarn.lock
 yarn set version berry
 yarn install
